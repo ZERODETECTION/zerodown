@@ -30,6 +30,13 @@ go mod tidy
 go run server.go
 ```
 
+You can run the server with screen.
+
+```
+screen
+crtl+a d
+````
+
 ## Setup (agent)
 
 ```
