@@ -10,3 +10,19 @@ The code is written in Go and utilizes Bootstrap. It consists of an agent that s
 ```
 git clone https://github.com/ZERODETECTION/zerodown.git
 ```
+
+```
+sudo apt install golang-go
+```
+
+```
+go mod init zerodown
+```
+
+```
+go mod tidy
+```
+
+```
+go run server.go
+```
