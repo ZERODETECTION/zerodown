@@ -104,6 +104,20 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 			font-size: 14px; /* You can specify the size in pixels, ems, rems, etc. */
 			font-weight: bold;
 		}
+		.progress-bar {
+		    display: -ms-flexbox;
+		    display: flex;
+		    -ms-flex-direction: column;
+		    flex-direction: column;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    overflow: hidden;
+		    color: #fff;
+		    text-align: center;
+		    white-space: nowrap;
+		    background-color: black;
+		    transition: width .6s ease;
+		}
 	</style>
 </head>
 <body>
