@@ -6,7 +6,7 @@ It has no complex dependencies, system requirements, or convoluted setups; just 
 The code is written in Go and utilizes Bootstrap. It consists of an agent that sends monitored data over HTTP and JSON. The server monitors the clients and displays them in a list for easy overview.
 
 
-## Installation
+## Installation (server)
 ```
 git clone https://github.com/ZERODETECTION/zerodown.git
 ```
@@ -25,4 +25,10 @@ go mod tidy
 
 ```
 go run server.go
+```
+
+## Setup (agent)
+
+```
+zerodown_agent_amd64.exe <server-ip> <port>
 ```
