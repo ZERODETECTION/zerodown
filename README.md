@@ -37,5 +37,5 @@ You need to create a task or cronjob to execute the client every X seconds. Ensu
 ## Dashboard
 
 ```
-http://<ip>:<port>/view
+http://<ip>:8080/view
 ```
