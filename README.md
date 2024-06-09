@@ -43,6 +43,7 @@ crtl+a d
 zerodown_agent_amd64.exe <server-ip> <port>
 ```
 You need to create a task or cronjob to execute the client every X seconds. Ensure that X is set to a value under 60 seconds; otherwise, the host will be marked as down.
+You can use the 
 
 ## Dashboard
 
